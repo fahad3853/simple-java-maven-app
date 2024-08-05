@@ -11,4 +11,4 @@ COPY target/my-app-1.0-SNAPSHOT.jar /app/my-app.jar
 EXPOSE 8081
 
 # Run the jar file
-ENTRYPOINT ["java", "-jar", "/app/spring-petclinic.jar"]
+ENTRYPOINT ["java", "-jar", "/app/my-app.jar"]
