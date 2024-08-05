@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the jar file to the container
-COPY target/spring-petclinic-2.3.0.BUILD-SNAPSHOT.jar /app/spring-petclinic.jar
+COPY target/my-app-1.0-SNAPSHOT.jar /app/my-app.jar
 
 # Expose the port that the app runs on
 EXPOSE 8081
